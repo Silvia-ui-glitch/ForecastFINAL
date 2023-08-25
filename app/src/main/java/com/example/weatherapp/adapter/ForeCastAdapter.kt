@@ -69,15 +69,15 @@ class ForeCastAdapter : RecyclerView.Adapter<ForeCastHolder>() {
 
     private fun getWindDirectionResource(deg: Int?): Int {
         return when (deg) {
-            in 337..360, in 0..22 -> R.drawable.north
-            in 23..67 -> R.drawable.northeast
-            in 68..112 -> R.drawable.east
-            in 113..157 -> R.drawable.southeast
-            in 158..202 -> R.drawable.south
-            in 203..247 -> R.drawable.southwest
-            in 248..292 -> R.drawable.west
-            in 293..337 -> R.drawable.northwest
-            else -> R.drawable.wind // Provide a default icon for unknown wind directions
+            in 349..360, in 0..33 -> R.drawable.north
+            in 34..78 -> R.drawable.northeast
+            in 79..123 -> R.drawable.east
+            in 124..168 -> R.drawable.southeast
+            in 169..213 -> R.drawable.south
+            in 214..258 -> R.drawable.southwest
+            in 259..303 -> R.drawable.west
+            in 304..348 -> R.drawable.northwest
+            else -> R.drawable.wind
         }
     }
 
