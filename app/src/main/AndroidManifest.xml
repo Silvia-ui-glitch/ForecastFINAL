@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
 
-        <!-- Define MainActivity as a separate activity -->
+      
         <activity
             android:name=".MainActivity"
             android:exported="true"
